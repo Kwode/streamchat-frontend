@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from './lib/utils';
 import { Message } from './types';
 
-const API_URL = 'http://localhost:8000/chat';
+const API_URL = 'https://streamchat-backend-pdnz.onrender.com/';
 
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([]);
